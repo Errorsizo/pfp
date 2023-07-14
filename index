@@ -1,0 +1,70 @@
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <title>프로필</title>
+    <style>
+      body{
+        padding: 2em;
+        font-family: "Courier New", Courier, monospace;
+        background-color: #000;
+        color: rgb(250, 250, 250);
+        font-size: 1.2em;
+        max-width: 900px;
+        margin: auto;
+        text-align: center;
+      }
+      header{
+        color: rgb(255, 255, 255);
+      }
+      h2,h3{
+        color: rgb(255, 255, 255);
+      }
+      em,blockquote{
+        color: aliceblue;
+      }
+      hr{
+        border: 1.5px solid #ff0000;
+      }
+      footer{
+        text-align: center;
+        font-size: 0.9em;
+      }
+      a:link{
+        color: rgb(255, 0, 0);
+        text-decoration: none;
+      }
+      a:hover{
+        color: rgb(255, 0, 0);
+        text-decoration: underline;
+      }
+      a:visited{
+        color: rgb(255, 0, 0);
+      }
+      a:active{
+        color: rgb(255, 0, 0);
+      }
+    </style>
+  </head>
+  <body>
+      <p><br></p>
+      <p><br></p>
+    <header>
+      <h1>(^-^) (°_°) ＼(-_- )</h1>
+    </header>
+    <p><br></p>
+    <p><br></p>
+    <h2>Errorsizo / 에러시조 / 시조</h2>
+    <p>Hi my name is Errorsizo<br>call me sizo Error is not my name<br>Cassgender / pronouns are he/they</p>
+    <p>닉네임: 에러시조 하지만 시조라고 불러주세요 (에러 아님)<br>캐스젠더 / 대명사 he/they</p>
+        <p><br></p>
+    <hr noshade width="100%">
+    <p><br></p>
+    <h3>Contact / Other Account</h3>
+    <p>mutuals only / 트친만:<br>game account: <a href="https://twitter.com/sizoplaygames">@sizoplaygames</a><br>art,oc account: <a href="https://twitter.com/errorseesaw">@errorseesaw</a>
+    <p>Discord: Errorsizo#8826<br>Steam: <a href="https://steamcommunity.com/id/Errorsizo/">https://steamcommunity.com/id/Errorsizo/</a>
+    <br>art fight: <a href="https://artfight.net/~Errorsizo">https://artfight.net/~Errorsizo</a>
+    <p><br></p>
+    <script>const faces=["?","&nbsp;","??","&nbsp;","???","&nbsp;",")","^)","_^);","^_^);","(^_^)","(^o^)/","(^o^)>","(^o^)/","(^-^);","(^-^)","('-')","('^')","(T^T)","(T^T)/","('^')/","^')/ =3","')/ =3",")/ =3","/ =3","&nbsp;=3","&nbsp;","&nbsp;","&nbsp;"],faces_cnt=faces.length,faces_time=500;let i=0;setTimeout(function e(){document.getElementById("face").innerHTML=faces[i++%faces_cnt],setTimeout(e,500)},500);</script>
+  </body>
+</html>
