@@ -1,4 +1,16 @@
-<html lang="ko">
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <title>Document</title>
+       <script>const faces=["?","&nbsp;","??","&nbsp;","???","&nbsp;",")","^)","_^);","^_^);","(^_^)","(^o^)/","(^o^)>","(^o^)/","(^-^);","(^-^)","('-')","('^')","(T^T)","(T^T)/","('^')/","^')/ =3","')/ =3",")/ =3","/ =3","&nbsp;=3","&nbsp;","&nbsp;","&nbsp;"],faces_cnt=faces.length,faces_time=500;
+	   let i=0;
+	   setTimeout(function e(){document.getElementById("face").innerHTML=faces[i++%faces_cnt],setTimeout(e,500)},500);
+	  </script>
+ </head>
+ <body>
+  <p id="face"></p>
+ </body>
+</html>
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
@@ -67,9 +79,3 @@
     <br>art fight: <a href="https://artfight.net/~Errorsizo">https://artfight.net/~Errorsizo</a>
     <br>art backup blog: <a href="https://errorsizo.tistory.com/">https://errorsizo.tistory.com/</a>
     <p><br></p>
-    <!DOCTYPE html>
-<html>
-<body>
-    <script>const faces=["?","&nbsp;","??","&nbsp;","???","&nbsp;",")","^)","_^);","^_^);","(^_^)","(^o^)/","(^o^)>","(^o^)/","(^-^);","(^-^)","('-')","('^')","(T^T)","(T^T)/","('^')/","^')/ =3","')/ =3",")/ =3","/ =3","&nbsp;=3","&nbsp;","&nbsp;","&nbsp;"],faces_cnt=faces.length,faces_time=500;let i=0;setTimeout(function e(){document.getElementById("face").innerHTML=faces[i++%faces_cnt],setTimeout(e,500)},500);</script>
-  </body>
-</html>
