@@ -1,13 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@import url('https://cdn.jsdelivr.net/npm/galmuri@latest/dist/galmuri.css');
+
+@font-face {
+    font-family: 'Galmuri11';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2506-1@1.0/Galmuri11-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-display: swap;
+}
 
 body, html {
-	padding: 0;
-	margin: 0;
-	font-size: 13px;
 	background: #000;
 	color: lime;
-	font-family: 'Source Code Pro', monospace;
-	font-size: 15px;
+	font-family: 'Galmuri11', monospace;
+	font-size: 17px;
 }
 
 img {
@@ -15,11 +19,7 @@ img {
 }
 
 .page {
-	padding: 24px;
-}
-
-.page h1:first-child {
-	margin-top: 0;
+	padding: 25px;
 }
 
 .header-image {
@@ -43,7 +43,7 @@ img {
 }
 
 .menu a {
-	color: lime;
+	color: red;
 }
 
 .main {
@@ -65,17 +65,15 @@ img {
 	height: 439px;
 }
 
-h1, h2, h3, h4, h5 {
-	font-size: 18px;
-  padding: 18px;
-  margin: 18px;
-}
 
 h1 {
   font-size: 20px;
 	border-bottom: 1px solid lime;
 	display: inline-block;
 	letter-spacing: 3px;
+  padding: 18px;
+  margin: 18px;
+  color: red;
 }
 
 h2 {
@@ -83,6 +81,9 @@ h2 {
 	border-bottom: 1px solid lime;
 	display: inline-block;
 	letter-spacing: 3px;
+  padding: 18px;
+  margin: 18px;
+  color: red;
 }
 
 a {
