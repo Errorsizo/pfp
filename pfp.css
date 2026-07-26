@@ -67,9 +67,8 @@ img {
 
 
 h1 {
-  font-size: 20px;
+  font-size: 27px;
 	border-bottom: 1px solid lime;
-	display: inline-block;
 	letter-spacing: 3px;
   padding: 18px;
   margin: 18px;
@@ -77,13 +76,20 @@ h1 {
 }
 
 h2 {
-  font-size: 20px;
+  font-size: 22px;
 	border-bottom: 1px solid lime;
 	display: inline-block;
-	letter-spacing: 3px;
   padding: 18px;
-  margin: 20px;
   color: red;
+}
+
+h3 {
+  font-size: 19px;
+	border-bottom: 1px solid lime;
+	display: inline-block;
+  padding: 15px;
+  color: red;
+  margin-top: -3px;
 }
 
 a {
