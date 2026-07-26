@@ -89,4 +89,17 @@ h2 {
 a {
 	color: red;
   text-decoration: none;
+  margin-bottom: 50px;
+}
+
+p {
+    line-height: 30px;
+}
+
+.p1 {
+    margin-top: 25px;
+}
+
+.p2 {
+    margin-top: 50px;
 }
